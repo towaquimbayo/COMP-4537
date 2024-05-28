@@ -1,0 +1,10 @@
+{
+  "endpointInvalidMsg": "Endpoint not found.",
+  "failedPostResponseMsg": "POST requst failed.",
+  "methodNotAllowedMsg": "HTTP Request method not allowed.",
+  "dbInsertQueryErrorMsg": "Error inserting into the database.",
+  "dbInsertQuerySuccessMsg": "Successfully inserted into the database.",
+  "dbSelectQueryErrorMsg": "Error selecting from the database.",
+  "dbSelectQuerySuccessMsg": "Successfully retrieved from the database.",
+  "dbForbiddenSqlQueryMsg": "Forbidden: Only SELECT and INSERT queries are permitted."
+}

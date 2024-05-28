@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COMP4537: Lab 5 - SQL</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <form onsubmit="handleBulkSubmit(event)">
+    <input type="text" style="width: 80%;" id="bulkData" name="bulkData" disabled />
+    <input type="submit" value="Submit" />
+    <p id="errorMessageBulk"></p>
+  </form>
+
+  <form onsubmit="handleSQLSubmit(event)">
+    <textarea id="sqlQuery" name="sqlQuery" rows="4" cols="50" required></textarea>
+    <input type="submit" value="Submit" />
+    <p id="errorMessageSQL"></p>
+  </form>
+
+  <script text="text/javascript" src="./lang/messages/en/user.js"></script>
+  <script type="text/javascript" src="./js/script.js"></script>
+</body>
+
+</html>
