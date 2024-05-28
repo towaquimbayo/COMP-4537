@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COMP 4537: Lab 5 - Update Dictionary</title>
+  <link rel="stylesheet" href="./css/global.css">
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="./store.html">Store</a></li>
+      <li><a href="./search.html">Search</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <h1>Add a new word!</h1>
+    <form onsubmit="return false;" method="post" enctype="multipart/form-data">
+      <label for="word">Word:</label>
+      <input type="text" id="word" name="word" />
+      <label for="definition">Definition:</label>
+      <textarea id="definition" name="definition" rows="4" cols="50"></textarea>
+      <input id="createWordBtn" type="button" value="Add Word" />
+      <p id="errorMessage"></p>
+    </form>
+    <div id="successResults"></div>
+  </div>
+
+  <script text="text/javascript" src="./lang/messages/en/user.js"></script>
+  <script text="text/javascript" src="./js/script.js"></script>
+</body>
+
+</html>
